@@ -99,7 +99,6 @@ public class Principal {
 					
 					Secretario secretario = (Secretario)credenciaisSecretario;
 					
-					System.out.println(secretario.getIsSecretario());
 					secretario.removerDocumentoProcesso(heapPrioridades, 
 							Formularios.preencherPrioridade(listaProcessos,secretario.getNome()));
 					
