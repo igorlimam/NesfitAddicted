@@ -27,7 +27,7 @@ public class Transportador extends Credenciais{
 		str.append("Comprador: "+ref.getComprador()+"\n");
 		str.append("Vendedor: "+ref.getVendedor()+"\n");
 		str.append("Peso: "+ref.getPeso()+"\n");
-		str.append("Detalhes:\n "+ref.getDetalhes()+"\n");
+		str.append("Detalhes:\n"+ref.getDetalhes()+"\n");
 		
 		if(ref.isEnvioRapido()){
 			str.append("Encomenda para envio Rapido\n");
