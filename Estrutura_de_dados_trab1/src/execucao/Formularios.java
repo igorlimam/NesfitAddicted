@@ -109,7 +109,7 @@ public class Formularios {
 		System.out.println("Encarregado: "+nomeSecretario);
 		System.out.println("Comprador: "+listaProcessos.getFim().getElement().getComprador());
 		System.out.println("Vendedor: "+listaProcessos.getFim().getElement().getVendedor());
-		System.out.println("Peso: "+listaProcessos.getFim().getElement().getPeso());
+		System.out.println("Peso: "+listaProcessos.getFim().getElement().getPeso()+" kg");
 		System.out.println("Detalhes:\n"+listaProcessos.getFim().getElement().getDetalhes());
 		
 		if(listaProcessos.getFim().getElement().isEnvioRapido()){
