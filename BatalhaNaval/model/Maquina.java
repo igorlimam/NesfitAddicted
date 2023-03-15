@@ -1,10 +1,10 @@
 package model;
+import java.security.SecureRandom;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Stack;
 public class Maquina extends Jogador{
 
-	private Random rand = new Random();
+	private SecureRandom rand = new SecureRandom();
 	private ArrayList<Coordenada> possiveisJogadas = new ArrayList<>();
 	private Stack<Coordenada> areasRedor = new Stack<>();
 	private Stack<Coordenada> modificadorCoordenada = new Stack<>();
